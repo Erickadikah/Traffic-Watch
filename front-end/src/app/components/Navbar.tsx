@@ -77,7 +77,7 @@ function Navbar({ links }: HeaderSearchProps) {
             className={classes.search}
             placeholder="Search"
             icon={<IconSearch size="1rem" stroke={1.5} />}
-            data={['React', 'Angular', 'Vue', 'Next.js', 'Riot.js', 'Svelte', 'Blitz.js']}
+            data={['Nairobi', 'Mombasa', 'Nakuru', 'Kisumu', 'Eldoret', 'Naivasha', 'Kiambu']}
           />
         </Group>
       </div>
