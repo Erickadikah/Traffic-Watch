@@ -1,0 +1,14 @@
+{
+  "cssImports": {
+    "/home/erick/github/Traffic-Watch/front-end/src/app/layout.tsx": [
+      "/home/erick/github/Traffic-Watch/front-end/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "/home/erick/github/Traffic-Watch/front-end/src/app/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/home/erick/github/Traffic-Watch/front-end/src/app/page": [
+      "/home/erick/github/Traffic-Watch/front-end/src/app/globals.css",
+      "/home/erick/github/Traffic-Watch/front-end/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  }
+}
