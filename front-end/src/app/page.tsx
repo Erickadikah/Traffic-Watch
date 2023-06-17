@@ -3,12 +3,17 @@ import React from 'react';
 import Navbar from '../app/components/Navbar';
 import Map from '../app/components/Map';
 import Incidents from '../app/components/Incidents';
+import Add from '../app/components/AddEvent';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <main className=' w-full h-screen text-textLight  overflow-x-hidden overflow-scroll border-10'>
       <Navbar links={[]} />
       <div className='h-[88vh] w-full mx-auto p-8 mt-0 border-r-8'>
+      <Link href='/add'>
+      <Add />
+      </Link>
       <Map />
       </div>
       <div className='h-[88vh] w-full mx-auto p-10'>

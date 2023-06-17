@@ -11,7 +11,9 @@ const Map = () => {
       container: mapContainerRef.current,
       style: 'mapbox://styles/mapbox/streets-v11',
       zoom: 8,
-      center: [36.8219, 1.2921]
+      maxZoom: 15,
+      center: [36.8219, 1.2921],
+      mapStyle:"mapbox://styles/leighhalliday/ckhjaksxg0x2v19s1ovps41ef"
     });
 
     // Add marker
