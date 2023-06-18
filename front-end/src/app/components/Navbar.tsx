@@ -1,3 +1,4 @@
+"use client"
 import { createStyles, Header, Autocomplete, Group, Burger, rem } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { IconSearch } from '@tabler/icons-react';
