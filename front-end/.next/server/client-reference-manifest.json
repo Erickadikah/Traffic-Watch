@@ -176,6 +176,66 @@
         "async": false
       }
     },
+    "(app-client)/./public/svg-101.svg": {
+      "*": {
+        "id": "(sc_client)/./public/svg-101.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/svg-101.svg",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/svg-101.svg",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/svg-102.svg": {
+      "*": {
+        "id": "(sc_client)/./public/svg-102.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/svg-102.svg",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/svg-102.svg",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/svg-103.svg": {
+      "*": {
+        "id": "(sc_client)/./public/svg-103.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/svg-103.svg",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/svg-103.svg",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
@@ -196,42 +256,250 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/components/Navbar.tsx": {
+    "(app-client)/./src/app/Footer/FooterElements.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/components/Navbar.tsx",
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/components/Navbar.tsx",
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "FooterContainer": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "FooterContainer",
+        "chunks": [],
+        "async": false
+      },
+      "FooterLink": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "FooterLink",
+        "chunks": [],
+        "async": false
+      },
+      "FooterLinkItems": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "FooterLinkItems",
+        "chunks": [],
+        "async": false
+      },
+      "FooterLinkTitle": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "FooterLinkTitle",
+        "chunks": [],
+        "async": false
+      },
+      "FooterLinksContainer": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "FooterLinksContainer",
+        "chunks": [],
+        "async": false
+      },
+      "FooterLinksWrapper": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "FooterLinksWrapper",
+        "chunks": [],
+        "async": false
+      },
+      "FooterWrap": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "FooterWrap",
+        "chunks": [],
+        "async": false
+      },
+      "SocialIconLink": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "SocialIconLink",
+        "chunks": [],
+        "async": false
+      },
+      "SocialIcons": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "SocialIcons",
+        "chunks": [],
+        "async": false
+      },
+      "SocialLogo": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "SocialLogo",
+        "chunks": [],
+        "async": false
+      },
+      "SocialMedia": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "SocialMedia",
+        "chunks": [],
+        "async": false
+      },
+      "SocialMediaWrap": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "SocialMediaWrap",
+        "chunks": [],
+        "async": false
+      },
+      "WebsiteRights": {
+        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "name": "WebsiteRights",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/Footer/index.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/Footer/index.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/Footer/index.tsx",
         "name": "",
         "chunks": [],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/components/Navbar.tsx",
+        "id": "(sc_client)/./src/app/Footer/index.tsx",
         "name": "default",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/app/page.tsx": {
+    "(app-client)/./src/app/InfoSection/page.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/page.tsx",
+        "id": "(sc_client)/./src/app/InfoSection/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/page.tsx",
+        "id": "(sc_client)/./src/app/InfoSection/page.tsx",
         "name": "",
         "chunks": [],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/page.tsx",
+        "id": "(sc_client)/./src/app/InfoSection/page.tsx",
         "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/Landingpage/ServicesElements.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "ServicesCard": {
+        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
+        "name": "ServicesCard",
+        "chunks": [],
+        "async": false
+      },
+      "ServicesContainer": {
+        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
+        "name": "ServicesContainer",
+        "chunks": [],
+        "async": false
+      },
+      "ServicesH1": {
+        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
+        "name": "ServicesH1",
+        "chunks": [],
+        "async": false
+      },
+      "ServicesH2": {
+        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
+        "name": "ServicesH2",
+        "chunks": [],
+        "async": false
+      },
+      "ServicesIcon": {
+        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
+        "name": "ServicesIcon",
+        "chunks": [],
+        "async": false
+      },
+      "ServicesP": {
+        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
+        "name": "ServicesP",
+        "chunks": [],
+        "async": false
+      },
+      "ServicesWrapper": {
+        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
+        "name": "ServicesWrapper",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/Landingpage/banner.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/Landingpage/banner.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/Landingpage/banner.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "HeroContent": {
+        "id": "(sc_client)/./src/app/Landingpage/banner.tsx",
+        "name": "HeroContent",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/Landingpage/index.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/Landingpage/index.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/Landingpage/index.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/Landingpage/index.tsx",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/Navbar/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/Navbar/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/Navbar/page.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "Navbar": {
+        "id": "(sc_client)/./src/app/Navbar/page.tsx",
+        "name": "Navbar",
         "chunks": [],
         "async": false
       }
@@ -911,102 +1179,6 @@
       ],
       "async": false
     },
-    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/esm/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/esm/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/src/app/components/Navbar.tsx": {
-      "id": "(app-client)/./src/app/components/Navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/src/app/components/Navbar.tsx#": {
-      "id": "(app-client)/./src/app/components/Navbar.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/src/app/components/Navbar.tsx#default": {
-      "id": "(app-client)/./src/app/components/Navbar.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/src/app/page.tsx": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/src/app/page.tsx#": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/src/app/page.tsx#default": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/home/erick/github/Traffic-Watch/front-end/src/app/globals.css#": {
       "id": "null",
       "name": "default",
@@ -1020,6 +1192,438 @@
       "chunks": [
         "static/css/app/layout.css"
       ]
+    },
+    "/home/erick/github/Traffic-Watch/front-end/public/svg-101.svg": {
+      "id": "(app-client)/./public/svg-101.svg",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/public/svg-101.svg#": {
+      "id": "(app-client)/./public/svg-101.svg",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/public/svg-101.svg#default": {
+      "id": "(app-client)/./public/svg-101.svg",
+      "name": "default",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/public/svg-102.svg": {
+      "id": "(app-client)/./public/svg-102.svg",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/public/svg-102.svg#": {
+      "id": "(app-client)/./public/svg-102.svg",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/public/svg-102.svg#default": {
+      "id": "(app-client)/./public/svg-102.svg",
+      "name": "default",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/public/svg-103.svg": {
+      "id": "(app-client)/./public/svg-103.svg",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/public/svg-103.svg#": {
+      "id": "(app-client)/./public/svg-103.svg",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/public/svg-103.svg#default": {
+      "id": "(app-client)/./public/svg-103.svg",
+      "name": "default",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#FooterContainer": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "FooterContainer",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#FooterLink": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "FooterLink",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#FooterLinkItems": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "FooterLinkItems",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#FooterLinkTitle": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "FooterLinkTitle",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#FooterLinksContainer": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "FooterLinksContainer",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#FooterLinksWrapper": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "FooterLinksWrapper",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#FooterWrap": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "FooterWrap",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#SocialIconLink": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "SocialIconLink",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#SocialIcons": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "SocialIcons",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#SocialLogo": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "SocialLogo",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#SocialMedia": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "SocialMedia",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#SocialMediaWrap": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "SocialMediaWrap",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/FooterElements.tsx#WebsiteRights": {
+      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
+      "name": "WebsiteRights",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/index.tsx": {
+      "id": "(app-client)/./src/app/Footer/index.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/index.tsx#": {
+      "id": "(app-client)/./src/app/Footer/index.tsx",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Footer/index.tsx#default": {
+      "id": "(app-client)/./src/app/Footer/index.tsx",
+      "name": "default",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/InfoSection/page.tsx": {
+      "id": "(app-client)/./src/app/InfoSection/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/InfoSection/page.tsx#": {
+      "id": "(app-client)/./src/app/InfoSection/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/InfoSection/page.tsx#default": {
+      "id": "(app-client)/./src/app/InfoSection/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/ServicesElements.tsx": {
+      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/ServicesElements.tsx#": {
+      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/ServicesElements.tsx#ServicesCard": {
+      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
+      "name": "ServicesCard",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/ServicesElements.tsx#ServicesContainer": {
+      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
+      "name": "ServicesContainer",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/ServicesElements.tsx#ServicesH1": {
+      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
+      "name": "ServicesH1",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/ServicesElements.tsx#ServicesH2": {
+      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
+      "name": "ServicesH2",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/ServicesElements.tsx#ServicesIcon": {
+      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
+      "name": "ServicesIcon",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/ServicesElements.tsx#ServicesP": {
+      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
+      "name": "ServicesP",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/ServicesElements.tsx#ServicesWrapper": {
+      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
+      "name": "ServicesWrapper",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/banner.tsx": {
+      "id": "(app-client)/./src/app/Landingpage/banner.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/banner.tsx#": {
+      "id": "(app-client)/./src/app/Landingpage/banner.tsx",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/banner.tsx#HeroContent": {
+      "id": "(app-client)/./src/app/Landingpage/banner.tsx",
+      "name": "HeroContent",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/index.tsx": {
+      "id": "(app-client)/./src/app/Landingpage/index.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/index.tsx#": {
+      "id": "(app-client)/./src/app/Landingpage/index.tsx",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Landingpage/index.tsx#default": {
+      "id": "(app-client)/./src/app/Landingpage/index.tsx",
+      "name": "default",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Navbar/page.tsx": {
+      "id": "(app-client)/./src/app/Navbar/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Navbar/page.tsx#": {
+      "id": "(app-client)/./src/app/Navbar/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Navbar/page.tsx#Navbar": {
+      "id": "(app-client)/./src/app/Navbar/page.tsx",
+      "name": "Navbar",
+      "chunks": [
+        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
     }
   }
 }
