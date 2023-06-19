@@ -38,6 +38,13 @@ const Data = () => {
       <span style={{ color: '#525678' }}>information with our Road Watch app</span>
     </h1>
     <p style={{ color: 'white', marginTop: '20px' }}>Create an Account and Add incidents on a road or look for incidents to avoid traffic</p>
+     <div className="flex gap-10 mt-4">
+      <a href="/Signup">
+        <Button variant="outlined" size="sm" sx={{ border: '1px solid white', color: 'whitesmoke', backgroundColor:'#539488' }}>
+          Learn More
+        </Button>
+      </a>
+    </div>
   </div>
   <div className="w-1/2">
     <img
