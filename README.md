@@ -20,3 +20,7 @@ This is a simple traffic watch app that allows users to view traffic alerts aler
 * ReactJS
 * Nextjs 13
 
+## Author
+
+Erick adikah
+
