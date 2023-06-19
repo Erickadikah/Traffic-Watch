@@ -1,7 +1,8 @@
 # Traffic-Watch
 
 ## Description
-This is a simple traffic watch app that allows users to view traffic Users can also view the weather and traffic alerts in the area.
+
+This is a simple traffic watch app that allows users to view traffic alerts alert for traffic in the area.
 
 ## Table of Contents
 
@@ -17,4 +18,5 @@ This is a simple traffic watch app that allows users to view traffic Users can a
 * JavaScript
 * jQuery
 * ReactJS
+* Nextjs 13
 
