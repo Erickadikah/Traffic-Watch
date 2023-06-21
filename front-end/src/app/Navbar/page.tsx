@@ -209,7 +209,7 @@ export function Navbar() {
 
           <Group className={classes.hiddenMobile}>
             <Button variant="default">Log in</Button>
-            <Button>Sign up</Button>
+            <Button style={{color: 'black'}}>Sign up</Button>
           </Group>
 
           <Burger opened={drawerOpened} onClick={toggleDrawer} className={classes.hiddenDesktop} />
