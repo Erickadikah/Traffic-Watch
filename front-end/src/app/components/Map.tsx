@@ -17,7 +17,7 @@ const Map = () => {
       maxZoom: 15,
       center: [36.8219, 1.2921],
     });
-    
+
     // Add traffic layer
     const trafficLayer = new MapboxTraffic({
       colorScale: [
@@ -26,34 +26,28 @@ const Map = () => {
         '#ff0000'  // red high congestion
       ],
       lineWidth: 2, // The width of the lines in the traffic layer
-    })
+    });
     map.addControl(new MapboxTraffic(), 'top-left');
 
     // Add markers
     const markers = [
       {
         lngLat: [36.8219, 1.2921], // Nairobi coordinates
-        locationName: 'Nairobi' // Name of the location
-      },
-      {
-        lngLat: [36.8219, 1.2921], // Nairobi coordinates
-        locationName: 'Nairobi' // Name of the location
+        locationName: 'Nairobi', // Name of the location
       },
       {
         lngLat: [39.6682, 4.0435], // Mombasa coordinates
-        locationName: 'Mombasa' // Name of the location
-      }
+        locationName: 'Mombasa', // Name of the location
+      },
     ];
 
     markers.forEach((markerData) => {
-      const marker = new mapboxgl.Marker()
-        .setLngLat(markerData.lngLat)
-        .addTo(map);
+      const marker = new mapboxgl.Marker().setLngLat(markerData.lngLat).addTo(map);
 
       // Create popup
       const popup = new mapboxgl.Popup({
         closeButton: false,
-        closeOnClick: false
+        closeOnClick: false,
       }).setHTML(`<h3>${markerData.locationName}</h3>`);
 
       // Show popup on marker hover
@@ -73,11 +67,17 @@ const Map = () => {
     const navigationControl = new mapboxgl.NavigationControl();
     map.addControl(navigationControl, 'top-right');
 
+    // Event listener for retrieving features on click
+    map.on('click', (e) => {
+      const features = map.queryRenderedFeatures(e.point);
+      console.log(features);
+    });
+
     return () => map.remove();
   }, []);
 
   return (
-    <div style={{ width: '90vw', height: '90vh', marginRight: '50px' }}>
+    <div style={{ width: '50vw', height: '90vh', marginRight: '25px' }}>
       <div ref={mapContainerRef} style={{ height: '100%' }} />
       <style>
         {`
@@ -96,3 +96,4 @@ const Map = () => {
 };
 
 export default Map;
+

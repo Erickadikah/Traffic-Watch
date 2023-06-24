@@ -503,6 +503,46 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/app/Home/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/Home/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/Home/page.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/Home/page.tsx",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/Navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/Navbar.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/components/Navbar.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/components/Navbar.tsx",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -1179,20 +1219,6 @@
       ],
       "async": false
     },
-    "/home/erick/github/Traffic-Watch/front-end/src/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
     "/home/erick/github/Traffic-Watch/front-end/public/svg-101.svg": {
       "id": "(app-client)/./public/svg-101.svg",
       "name": "*",
@@ -1269,7 +1295,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+        "app/Home/page:static/chunks/app/Home/page.js"
       ],
       "async": false
     },
@@ -1277,7 +1303,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+        "app/Home/page:static/chunks/app/Home/page.js"
       ],
       "async": false
     },
@@ -1285,7 +1311,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+        "app/Home/page:static/chunks/app/Home/page.js"
       ],
       "async": false
     },
@@ -1293,7 +1319,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+        "app/Home/page:static/chunks/app/Home/page.js"
       ],
       "async": false
     },
@@ -1301,7 +1327,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+        "app/Home/page:static/chunks/app/Home/page.js"
       ],
       "async": false
     },
@@ -1309,7 +1335,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+        "app/Home/page:static/chunks/app/Home/page.js"
       ],
       "async": false
     },
@@ -1622,6 +1648,82 @@
       "name": "Navbar",
       "chunks": [
         "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/home/erick/github/Traffic-Watch/front-end/node_modules/mapbox-gl-traffic/dist/mapbox-gl-traffic.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/Home/page.css"
+      ]
+    },
+    "/home/erick/github/Traffic-Watch/front-end/node_modules/mapbox-gl/dist/mapbox-gl.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/Home/page.css"
+      ]
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Home/page.tsx": {
+      "id": "(app-client)/./src/app/Home/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Home/page.tsx#": {
+      "id": "(app-client)/./src/app/Home/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/Home/page.tsx#default": {
+      "id": "(app-client)/./src/app/Home/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/components/Navbar.tsx": {
+      "id": "(app-client)/./src/app/components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/components/Navbar.tsx#": {
+      "id": "(app-client)/./src/app/components/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/components/Navbar.tsx#default": {
+      "id": "(app-client)/./src/app/components/Navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
       ],
       "async": false
     }
