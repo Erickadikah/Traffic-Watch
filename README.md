@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple traffic watch app that allows users to view traffic alerts alert for traffic in the area.
+This is a simple traffic watch app that allows users to view traffic alerts for traffic in the area.
 
 ## Table of Contents
 
@@ -18,9 +18,18 @@ This is a simple traffic watch app that allows users to view traffic alerts aler
 * JavaScript
 * jQuery
 * ReactJS
-* Nextjs 13
+* Next.js
+* Mapbox
+* Mapbox-gl
+* Mapbox-gl-geocoder
+* Mapbox-gl-directions
+* Mapbox-gl-draw
+* Mapbox-gl-traffic
+* Mapbox-gl-geolocate-control
 
 ## Author
 
 Erick adikah
+
+![Author Image](Traffic-Watch/public/images/svg-101.svg)
 
