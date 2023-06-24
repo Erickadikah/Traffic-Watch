@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <main className=' w-full h-screen text-textLight  overflow-x-hidden overflow-scroll border-10'>
       <Navbar links={[]} />
-      <div className='h-[88vh] w-full mx-auto p-8 mt-0 border-r-8 ' style={{ marginTop: '-9.5rem' }}>
+      <div className='h-[88vh] w-full mx-auto p-8 mt-0 border-r-8 ' style={{ marginTop: '-9.4rem' }}>
       <div style={{ display: 'flex' }}>
         <div style={{ flex: 1 }}>
           <Map />

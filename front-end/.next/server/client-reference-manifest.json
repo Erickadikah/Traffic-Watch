@@ -1219,6 +1219,20 @@
       ],
       "async": false
     },
+    "/home/erick/github/Traffic-Watch/front-end/src/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "/home/erick/github/Traffic-Watch/front-end/node_modules/mapbox-gl-traffic/dist/mapbox-gl-traffic.css#": {
       "id": "null",
       "name": "default",
@@ -1335,20 +1349,6 @@
         "app/Home/page:static/chunks/app/Home/page.js"
       ],
       "async": false
-    },
-    "/home/erick/github/Traffic-Watch/front-end/src/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/home/erick/github/Traffic-Watch/front-end/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
     },
     "/home/erick/github/Traffic-Watch/front-end/public/svg-101.svg": {
       "id": "(app-client)/./public/svg-101.svg",
