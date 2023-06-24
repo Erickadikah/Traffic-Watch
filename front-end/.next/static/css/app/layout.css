@@ -597,6 +597,15 @@ video {
 .mt-4 {
   margin-top: 1rem;
 }
+.mt-5 {
+  margin-top: 1.25rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
 .block {
   display: block;
 }
@@ -621,6 +630,9 @@ video {
 .h-screen {
   height: 100vh;
 }
+.h-full {
+  height: 100%;
+}
 .w-1\/2 {
   width: 50%;
 }
@@ -633,14 +645,31 @@ video {
 .grow {
   flex-grow: 1;
 }
+.border-spacing-0 {
+  --tw-border-spacing-x: 0px;
+  --tw-border-spacing-y: 0px;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.flex-col {
+  flex-direction: column;
 }
 .flex-wrap {
   flex-wrap: wrap;
 }
+.items-center {
+  align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
 .gap-10 {
   gap: 2.5rem;
+}
+.gap-6 {
+  gap: 1.5rem;
 }
 .overflow-scroll {
   overflow: scroll;
@@ -657,6 +686,10 @@ video {
 .border-r-8 {
   border-right-width: 8px;
 }
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -667,12 +700,21 @@ video {
 .p-8 {
   padding: 2rem;
 }
+.p-4 {
+  padding: 1rem;
+}
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 .pt-0 {
   padding-top: 0px;
+}
+.text-center {
+  text-align: center;
+}
+.align-middle {
+  vertical-align: middle;
 }
 .text-3xl {
   font-size: 1.875rem;
@@ -681,6 +723,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .font-bold {
   font-weight: 700;
@@ -695,6 +741,13 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+.mix-blend-color-burn {
+  mix-blend-mode: color-burn;
 }
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
