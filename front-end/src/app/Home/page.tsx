@@ -74,7 +74,7 @@ export default function Home() {
             </li>
           </ul>
           <Link href='/Add' className='mt-10 flex'>
-          <Button  variant='filled' className='text-black'> Add Event</Button>
+          <Button  variant='outline' className='text-black'> Add Event</Button>
           </Link>
         </div>
 
