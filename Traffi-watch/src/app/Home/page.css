@@ -1,0 +1,31 @@
+.traffic-color-red {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #FF0000;
+}
+
+.traffic-color-yellow {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #FFFF00;
+}
+
+.traffic-color-green {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #00FF00;
+}
+
+.traffic-color-orange {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #FFA500;
+}
