@@ -13,9 +13,24 @@ import {
   ProfileButton,
   RegisterButton,
 } from "@/components/buttons.component";
-import { signOut, useSession } from "next-auth/react";
+import { signOut } from "next-auth/react";
 import Image from "next/image";
+// import { get } from "http";
+import { getFirestore, collection, getDocs, DocumentSnapshot } from "firebase/firestore";
+// import app from "@/app/shared/FirebaseConfig";
+import { useEffect } from 'react'
+import { initializeApp } from "firebase/app";
 
+const firebaseConfig = {
+  apiKey: "AIzaSyBONiHHTdPot1Jx1m5Vmz65Z6MjSFt9Hao",
+  authDomain: "traffic-watch-cfb31.firebaseapp.com",
+  projectId: "traffic-watch-cfb31",
+  storageBucket: "traffic-watch-cfb31.appspot.com",
+  messagingSenderId: "140193469367",
+  appId: "1:140193469367:web:0d2549f814fcabe0ad4e32",
+  measurementId: "G-C2MLDK9HYS"
+};
+const app = initializeApp(firebaseConfig);
 const data = [
   {
     label: "High Traffic",
@@ -41,9 +56,18 @@ const data = [
 ];
 
 export default function Home() {
-  // This will be done in profile page
-  // const { data: session } = useSession();
-  // console.log("session", session);
+  useEffect(() => {
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+    const getPost = async () => {
+      const querySnapshot = await getDocs(collection(db, "posts"));
+      querySnapshot.forEach((doc: DocumentSnapshot<any>) => {
+        console.log(doc.id, " => ", doc.data());
+      });
+    };
+    getPost();
+  }, []);
+
   return (
     <main className=" w-full h-screen text-textLight  overflow-x-hidden overflow-scroll border-10">
       <Navbar links={[]} />
@@ -118,7 +142,11 @@ export default function Home() {
               </Link>
               <div className="gap-8 flex mt-2">
                 <div>
-                  <Button variant="outline" className="text-black" onClick={() => signOut()}>
+                  <Button
+                    variant="outline"
+                    className="text-black"
+                    onClick={() => signOut()}
+                  >
                     <LogoutButton />
                   </Button>
                 </div>

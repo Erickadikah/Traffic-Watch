@@ -7,15 +7,17 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDZbPRofPFuGSzVfRtSzw7ry7N3mSTWC-0",
-  authDomain: "traffic---watch.firebaseapp.com",
-  projectId: "traffic---watch",
-  storageBucket: "traffic---watch.appspot.com",
-  messagingSenderId: "500364259721",
-  appId: "1:500364259721:web:a85cde342966c93c9a7158",
-  measurementId: "G-EWQ9SY297F"
+  apiKey: "AIzaSyBONiHHTdPot1Jx1m5Vmz65Z6MjSFt9Hao",
+  authDomain: "traffic-watch-cfb31.firebaseapp.com",
+  projectId: "traffic-watch-cfb31",
+  storageBucket: "traffic-watch-cfb31.appspot.com",
+  messagingSenderId: "140193469367",
+  appId: "1:140193469367:web:0d2549f814fcabe0ad4e32",
+  measurementId: "G-C2MLDK9HYS"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+export default firebaseConfig;
