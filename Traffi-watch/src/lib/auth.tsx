@@ -3,6 +3,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import GoogleProvider from "next-auth/providers/google";
 import GitHubProvider from "next-auth/providers/github";
 import TwitterProvider from "next-auth/providers/twitter";
+import GitlabProvider from "next-auth/providers/gitlab";
 export const authOptions: NextAuthOptions = {
   session: {
     strategy: "jwt",
@@ -35,5 +36,9 @@ export const authOptions: NextAuthOptions = {
     clientId: 'process.env.TWITTER_CLIENT_ID',
     clientSecret: 'process.env.TWITTER_CLIENT_SECRET'
   }),
+    GitlabProvider({
+    clientId: 'process.env.GITLAB_CLIENT_ID',
+    clientSecret: 'process.env.GITLAB_CLIENT_SECRET'
+  })
   ],
 };

@@ -1,27 +1,4 @@
 {
-  "cssImports": {
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/layout.tsx": [
-      "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/globals.css"
-    ],
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Home/page.tsx": [
-      "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/mapbox-gl/dist/mapbox-gl.css",
-      "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/mapbox-gl-traffic/dist/mapbox-gl-traffic.css",
-      "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Home/page.css"
-    ]
-  },
-  "cssModules": {
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/page": [
-      "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/globals.css"
-    ],
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Home/page": [
-      "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/globals.css",
-      "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/mapbox-gl/dist/mapbox-gl.css",
-      "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/mapbox-gl-traffic/dist/mapbox-gl-traffic.css",
-      "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Home/page.css"
-    ],
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Add/page": [
-      "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/globals.css"
-    ]
-  }
+  "cssImports": {},
+  "cssModules": {}
 }
