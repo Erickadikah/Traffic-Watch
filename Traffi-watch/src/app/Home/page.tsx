@@ -16,10 +16,16 @@ import {
 import { signOut } from "next-auth/react";
 import Image from "next/image";
 // import { get } from "http";
-import { getFirestore, collection, getDocs, DocumentSnapshot } from "firebase/firestore";
+import {
+  getFirestore,
+  collection,
+  getDocs,
+  DocumentSnapshot,
+} from "firebase/firestore";
 // import app from "@/app/shared/FirebaseConfig";
-import { useEffect } from 'react'
+import { useEffect } from "react";
 import { initializeApp } from "firebase/app";
+import Posts from "./posts";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBONiHHTdPot1Jx1m5Vmz65Z6MjSFt9Hao",
@@ -28,7 +34,7 @@ const firebaseConfig = {
   storageBucket: "traffic-watch-cfb31.appspot.com",
   messagingSenderId: "140193469367",
   appId: "1:140193469367:web:0d2549f814fcabe0ad4e32",
-  measurementId: "G-C2MLDK9HYS"
+  measurementId: "G-C2MLDK9HYS",
 };
 const app = initializeApp(firebaseConfig);
 const data = [
@@ -154,9 +160,6 @@ export default function Home() {
                   <Button variant="outline" className="text-black">
                     <ProfileButton />
                   </Button>
-                  {/* <div>
-                  <Image src={session?.user?.image} alt="profile" />
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -164,10 +167,12 @@ export default function Home() {
         </div>
       </div>
       <div
-        className="h-[88vh] w-full mx-auto p-10"
-        style={{ marginTop: "150px" }}
-      >
-        <Incidents />
+        className="h-[70vh] w-full mx-auto p-10"
+        style={{ marginTop: "150px" }}>
+      <Incidents />
+      </div>
+      <div className="mt-4 gap-10 flex flex-wrap justify-center items-center">
+      <Posts />
       </div>
       <main
         style={{

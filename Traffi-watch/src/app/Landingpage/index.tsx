@@ -9,6 +9,10 @@ import {
   ServicesH2,
   ServicesP
 } from './ServicesElements';
+import icon from "../images/svg-101.svg";
+import Image from 'next/image';
+import icon2 from "../images/location.svg";
+import icon3 from "../images/ideas.svg";
 
 const Services = () => {
   return (
@@ -16,18 +20,18 @@ const Services = () => {
       <ServicesH1>Services</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={require('../../../public/svg-101.svg')} alt="Icon1" />
+          <Image src={icon} className='w-16 h-16' alt="Icon1" />
           <ServicesH2>Location</ServicesH2>
           <ServicesP>We help reduce your time finding useful information when it's urgently needed.</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={require('../../../public/svg-102.svg')} alt="Icon2" />
+          <Image src={icon2} className='w-16 h-16' alt="Icon2" />
           <ServicesH2>Upload an Incidents</ServicesH2>
-          <ServicesP>You can access our services anywhere online, on a phone or laptop.</ServicesP>
+          <ServicesP>phone or laptop.</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={require('../../../public/svg-103.svg')} alt="Icon3" />
-          <ServicesH2>Search Incidents</ServicesH2>
+          <Image src={icon3} className='w-16 h-16' alt="Icon3" />
+          <ServicesH2>Share Incidents at Your Location</ServicesH2>
           <ServicesP>We guarantee secure data.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
