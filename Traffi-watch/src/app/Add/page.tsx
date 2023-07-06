@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import { FiUpload, FiCheckCircle, FiAlertCircle } from "react-icons/fi";
 
 function AddPage() {
   const [location, setLocation] = useState('');
@@ -75,7 +76,7 @@ function AddPage() {
   }, [errorMessage, successMessage]);
 
   return (
-    <div className="container mx-auto px-4 mt-40">
+    <div className="container mx-auto px-4 mt-40 bg-slate-200">
       {errorMessage && <p className="text-red-500">{errorMessage}</p>}
       {successMessage && <p className="text-green-500">{successMessage}</p>}
       <form onSubmit={handleSubmit} className="block">
@@ -101,16 +102,16 @@ function AddPage() {
         />
         {imagePreview && (
           <img
-            src={imagePreview}
+            src={uri}
             alt="Image Preview"
             className="mb-4 max-w-xs"
           />
         )}
         <button
           type="submit"
-          className="px-4 py-2 bg-blue-500 text-white rounded"
+          className="px-4 py-2 bg-blue-500 text-white rounded focus:outline-none hover:bg-blue-600"
         >
-          Create Post
+          <FiUpload className="inline-block mr-1" /> Create Post
         </button>
       </form>
     </div>

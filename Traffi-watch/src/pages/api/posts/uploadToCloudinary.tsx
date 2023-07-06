@@ -28,4 +28,17 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     res.status(200).json({ post });
     cloudinary.uploader.destroy(post.image);
   }
+//update Post
+  if ( req.method === 'PUT') {
+    const { id } = req.query;
+    const { location, description,image } = JSON.parse(req.body);
+    const cloudinaryUpload = await cloudinary.uploader.upload(image);
+    const post = await Post.findByIdAndUpdate(id, {
+      location,
+      description,
+      image: cloudinaryUpload.secure_url,
+    });
+    await post.save();
+    res.status(200).json({ post });
+  }
 }

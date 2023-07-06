@@ -11,6 +11,8 @@ import {
   createStyles,
   rem,
 } from '@mantine/core';
+import { ImLocation2 } from 'react-icons/im';
+import { GiTrafficLightsOrange } from "react-icons/gi";
 
 const useStyles = createStyles((theme) => ({
   card: {
@@ -86,18 +88,20 @@ const Posts = () => {
 
           <Card.Section className={classes.section} mt="md">
             <Group position="apart">
-              <Text fz="lg" fw={500}>
-                {post.title}
+              <Text fz="sm" fw={500} className="flex gap-6">
+                {post.location}
+                <ImLocation2 style={{ fontSize: 18}}/>
               </Text>
-              <Badge size="sm">{post.country}</Badge>
+              <Badge size="lg">{post.country}</Badge>
             </Group>
             <Text fz="sm" mt="xs">
-              {post.description}
+              {/* {post.description} */}
             </Text>
           </Card.Section>
           <Card.Section className={classes.section}>
-            <Text mt="md" className={classes.label} c="dimmed">
-              Perfect for you, if you enjoy
+            <Text mt="md" className={classes.label}>
+              {post.description}
+              {/* <GiTrafficLightsOrange style={{ fontSize: 27 }}/> */}
             </Text>
             <Group spacing={7} mt={5}>
               {post.badges &&

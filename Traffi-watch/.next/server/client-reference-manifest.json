@@ -176,86 +176,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/images/ideas.svg": {
-      "*": {
-        "id": "(sc_client)/./src/app/images/ideas.svg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/images/ideas.svg",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/images/ideas.svg",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/images/location.svg": {
-      "*": {
-        "id": "(sc_client)/./src/app/images/location.svg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/images/location.svg",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/images/location.svg",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/images/svg-101.svg": {
-      "*": {
-        "id": "(sc_client)/./src/app/images/svg-101.svg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/images/svg-101.svg",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/images/svg-101.svg",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
@@ -276,276 +196,62 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+    "(app-client)/./src/app/Home/page.tsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "id": "(sc_client)/./src/app/Home/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "id": "(sc_client)/./src/app/Home/page.tsx",
         "name": "",
         "chunks": [],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "id": "(sc_client)/./src/app/Home/page.tsx",
         "name": "default",
         "chunks": [],
         "async": false
-      },
-      "defaultHead": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "defaultHead",
-        "chunks": [],
-        "async": false
       }
     },
-    "(app-client)/./src/app/Footer/FooterElements.tsx": {
+    "(app-client)/./src/app/components/Navbar.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
+        "id": "(sc_client)/./src/app/components/Navbar.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "FooterContainer": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "FooterContainer",
-        "chunks": [],
-        "async": false
-      },
-      "FooterLink": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "FooterLink",
-        "chunks": [],
-        "async": false
-      },
-      "FooterLinkItems": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "FooterLinkItems",
-        "chunks": [],
-        "async": false
-      },
-      "FooterLinkTitle": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "FooterLinkTitle",
-        "chunks": [],
-        "async": false
-      },
-      "FooterLinksContainer": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "FooterLinksContainer",
-        "chunks": [],
-        "async": false
-      },
-      "FooterLinksWrapper": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "FooterLinksWrapper",
-        "chunks": [],
-        "async": false
-      },
-      "FooterWrap": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "FooterWrap",
-        "chunks": [],
-        "async": false
-      },
-      "SocialIconLink": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "SocialIconLink",
-        "chunks": [],
-        "async": false
-      },
-      "SocialIcons": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "SocialIcons",
-        "chunks": [],
-        "async": false
-      },
-      "SocialLogo": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "SocialLogo",
-        "chunks": [],
-        "async": false
-      },
-      "SocialMedia": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "SocialMedia",
-        "chunks": [],
-        "async": false
-      },
-      "SocialMediaWrap": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "SocialMediaWrap",
-        "chunks": [],
-        "async": false
-      },
-      "WebsiteRights": {
-        "id": "(sc_client)/./src/app/Footer/FooterElements.tsx",
-        "name": "WebsiteRights",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/Footer/index.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/Footer/index.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/Footer/index.tsx",
+        "id": "(sc_client)/./src/app/components/Navbar.tsx",
         "name": "",
         "chunks": [],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/Footer/index.tsx",
+        "id": "(sc_client)/./src/app/components/Navbar.tsx",
         "name": "default",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/app/InfoSection/page.tsx": {
+    "(app-client)/./src/app/Add/page.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/InfoSection/page.tsx",
+        "id": "(sc_client)/./src/app/Add/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/InfoSection/page.tsx",
+        "id": "(sc_client)/./src/app/Add/page.tsx",
         "name": "",
         "chunks": [],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/InfoSection/page.tsx",
+        "id": "(sc_client)/./src/app/Add/page.tsx",
         "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/Landingpage/ServicesElements.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "ServicesCard": {
-        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
-        "name": "ServicesCard",
-        "chunks": [],
-        "async": false
-      },
-      "ServicesContainer": {
-        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
-        "name": "ServicesContainer",
-        "chunks": [],
-        "async": false
-      },
-      "ServicesH1": {
-        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
-        "name": "ServicesH1",
-        "chunks": [],
-        "async": false
-      },
-      "ServicesH2": {
-        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
-        "name": "ServicesH2",
-        "chunks": [],
-        "async": false
-      },
-      "ServicesIcon": {
-        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
-        "name": "ServicesIcon",
-        "chunks": [],
-        "async": false
-      },
-      "ServicesP": {
-        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
-        "name": "ServicesP",
-        "chunks": [],
-        "async": false
-      },
-      "ServicesWrapper": {
-        "id": "(sc_client)/./src/app/Landingpage/ServicesElements.tsx",
-        "name": "ServicesWrapper",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/Landingpage/banner.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/Landingpage/banner.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/Landingpage/banner.tsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "HeroContent": {
-        "id": "(sc_client)/./src/app/Landingpage/banner.tsx",
-        "name": "HeroContent",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/Landingpage/index.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/Landingpage/index.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/Landingpage/index.tsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/Landingpage/index.tsx",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/Navbar/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/Navbar/page.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/Navbar/page.tsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "Navbar": {
-        "id": "(sc_client)/./src/app/Navbar/page.tsx",
-        "name": "Navbar",
         "chunks": [],
         "async": false
       }
@@ -1225,550 +931,6 @@
       ],
       "async": false
     },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/images/ideas.svg": {
-      "id": "(app-client)/./src/app/images/ideas.svg",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/images/ideas.svg#": {
-      "id": "(app-client)/./src/app/images/ideas.svg",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/images/ideas.svg#default": {
-      "id": "(app-client)/./src/app/images/ideas.svg",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/images/location.svg": {
-      "id": "(app-client)/./src/app/images/location.svg",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/images/location.svg#": {
-      "id": "(app-client)/./src/app/images/location.svg",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/images/location.svg#default": {
-      "id": "(app-client)/./src/app/images/location.svg",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/images/svg-101.svg": {
-      "id": "(app-client)/./src/app/images/svg-101.svg",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/images/svg-101.svg#": {
-      "id": "(app-client)/./src/app/images/svg-101.svg",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/images/svg-101.svg#default": {
-      "id": "(app-client)/./src/app/images/svg-101.svg",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/shared/lib/head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#FooterContainer": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "FooterContainer",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#FooterLink": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "FooterLink",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#FooterLinkItems": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "FooterLinkItems",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#FooterLinkTitle": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "FooterLinkTitle",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#FooterLinksContainer": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "FooterLinksContainer",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#FooterLinksWrapper": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "FooterLinksWrapper",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#FooterWrap": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "FooterWrap",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#SocialIconLink": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "SocialIconLink",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#SocialIcons": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "SocialIcons",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#SocialLogo": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "SocialLogo",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#SocialMedia": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "SocialMedia",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#SocialMediaWrap": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "SocialMediaWrap",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/FooterElements.tsx#WebsiteRights": {
-      "id": "(app-client)/./src/app/Footer/FooterElements.tsx",
-      "name": "WebsiteRights",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/index.tsx": {
-      "id": "(app-client)/./src/app/Footer/index.tsx",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/index.tsx#": {
-      "id": "(app-client)/./src/app/Footer/index.tsx",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Footer/index.tsx#default": {
-      "id": "(app-client)/./src/app/Footer/index.tsx",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/InfoSection/page.tsx": {
-      "id": "(app-client)/./src/app/InfoSection/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/InfoSection/page.tsx#": {
-      "id": "(app-client)/./src/app/InfoSection/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/InfoSection/page.tsx#default": {
-      "id": "(app-client)/./src/app/InfoSection/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/ServicesElements.tsx": {
-      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/ServicesElements.tsx#": {
-      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/ServicesElements.tsx#ServicesCard": {
-      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
-      "name": "ServicesCard",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/ServicesElements.tsx#ServicesContainer": {
-      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
-      "name": "ServicesContainer",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/ServicesElements.tsx#ServicesH1": {
-      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
-      "name": "ServicesH1",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/ServicesElements.tsx#ServicesH2": {
-      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
-      "name": "ServicesH2",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/ServicesElements.tsx#ServicesIcon": {
-      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
-      "name": "ServicesIcon",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/ServicesElements.tsx#ServicesP": {
-      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
-      "name": "ServicesP",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/ServicesElements.tsx#ServicesWrapper": {
-      "id": "(app-client)/./src/app/Landingpage/ServicesElements.tsx",
-      "name": "ServicesWrapper",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/banner.tsx": {
-      "id": "(app-client)/./src/app/Landingpage/banner.tsx",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/banner.tsx#": {
-      "id": "(app-client)/./src/app/Landingpage/banner.tsx",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/banner.tsx#HeroContent": {
-      "id": "(app-client)/./src/app/Landingpage/banner.tsx",
-      "name": "HeroContent",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/index.tsx": {
-      "id": "(app-client)/./src/app/Landingpage/index.tsx",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/index.tsx#": {
-      "id": "(app-client)/./src/app/Landingpage/index.tsx",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/index.tsx#default": {
-      "id": "(app-client)/./src/app/Landingpage/index.tsx",
-      "name": "default",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Navbar/page.tsx": {
-      "id": "(app-client)/./src/app/Navbar/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Navbar/page.tsx#": {
-      "id": "(app-client)/./src/app/Navbar/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
-    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Navbar/page.tsx#Navbar": {
-      "id": "(app-client)/./src/app/Navbar/page.tsx",
-      "name": "Navbar",
-      "chunks": [
-        "app/Landingpage/page:static/chunks/app/Landingpage/page.js"
-      ],
-      "async": false
-    },
     "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/globals.css#": {
       "id": "null",
       "name": "default",
@@ -1782,6 +944,147 @@
       "chunks": [
         "static/css/app/layout.css"
       ]
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/mapbox-gl-traffic/dist/mapbox-gl-traffic.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/Home/page.css"
+      ]
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/mapbox-gl/dist/mapbox-gl.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/Home/page.css"
+      ]
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Home/page.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/Home/page.css"
+      ]
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Home/page.tsx": {
+      "id": "(app-client)/./src/app/Home/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Home/page.tsx#": {
+      "id": "(app-client)/./src/app/Home/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Home/page.tsx#default": {
+      "id": "(app-client)/./src/app/Home/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/components/Navbar.tsx": {
+      "id": "(app-client)/./src/app/components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/components/Navbar.tsx#": {
+      "id": "(app-client)/./src/app/components/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/components/Navbar.tsx#default": {
+      "id": "(app-client)/./src/app/components/Navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/Home/page:static/chunks/app/Home/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Add/page.tsx": {
+      "id": "(app-client)/./src/app/Add/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Add/page:static/chunks/app/Add/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Add/page.tsx#": {
+      "id": "(app-client)/./src/app/Add/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/Add/page:static/chunks/app/Add/page.js"
+      ],
+      "async": false
+    },
+    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Add/page.tsx#default": {
+      "id": "(app-client)/./src/app/Add/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/Add/page:static/chunks/app/Add/page.js"
+      ],
+      "async": false
     }
   }
 }

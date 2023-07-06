@@ -77,8 +77,8 @@ const Map = () => {
   }, []);
 
   return (
-    <div style={{ width: '50vw', height: '90vh', marginRight: '25px' }}>
-      <div ref={mapContainerRef} style={{ height: '100%' }} />
+    <div style={{height: '90vh', marginRight: '25px' }}>
+      <div ref={mapContainerRef} className="h-full"/>
       <style>
         {`
           .hovered-marker {

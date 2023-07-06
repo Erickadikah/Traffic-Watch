@@ -74,8 +74,7 @@ export function HeroContent() {
       <Container className={classes.container}>
         <Title className={classes.title}> <span className='text-[#228BE6] text-bold'> A fully featured Navigation </span>Across all your Devices</Title>
         <Text className={classes.description} size="xl" mt="xl">
-          Build fully functional accessible web applications faster than ever –  includes
-          more than 120 customizable  to cover you in any situation
+        Fully functional accessible Navigator faster than ever – 
         </Text>
 
         <Button variant="outline" size="md" radius="sm"  className={classes.control}>
