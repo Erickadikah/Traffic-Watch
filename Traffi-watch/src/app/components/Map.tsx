@@ -77,7 +77,7 @@ const Map = () => {
   }, []);
 
   return (
-    <div style={{height: '90vh', marginRight: '25px' }}>
+    <div style={{height: '90vh', marginRight: '25px' }}  className='lg:h-40 lg:w-80 flex'>
       <div ref={mapContainerRef} className="h-full"/>
       <style>
         {`
