@@ -16,6 +16,7 @@ import {
 import { signOut } from "next-auth/react";
 // import Image from "next/image";
 import Posts from "./posts";
+import { HiMiniBellAlert } from "react-icons/hi";
 
 const data = [
   {
@@ -54,10 +55,11 @@ export default function Home() {
             <Map />
           </div>
           <div className="p-4 mt-10">
-            <h1 className="text-2xl font-16 text-center mix-blend-color-burn">
+            <h1 className="text-2xl font-16 text-center border border-gradient-to-r from-red-500 to-blue-500 border-solid">
               Traffic Status
             </h1>
             <Data data={data} />
+            {/* <div className=" flex"> */}
             <Link href="/Add" className="mt-10 flex">
               <Button variant="outline" className="text-black rounded-md">
                 {" "}
@@ -66,7 +68,7 @@ export default function Home() {
             </Link>
           </div>
           {/* posts */}
-          <div className="w-full gap-10 top-40 flex flex-wrap justify-center items-center mt-8 lg:mt-0">
+          <div className="w-full gap-10 top-45 flex flex-wrap justify-center items-center mt-8 lg:mt-0">
             <Posts />
           </div>
         </div>

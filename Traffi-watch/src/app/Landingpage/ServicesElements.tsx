@@ -57,7 +57,7 @@ export const ServicesCard = styled.div`
     }
 `
 
-export const ServicesIcon = styled.img`
+export const Image = styled.img`
     height: 160px;
     width: 160px;
     margin-bottom: 10px;

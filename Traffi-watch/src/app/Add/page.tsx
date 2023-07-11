@@ -1,6 +1,9 @@
 "use client";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useNavigate } from 'react';
 import { FiUpload, FiCheckCircle, FiAlertCircle } from "react-icons/fi";
+import { GrLocation } from "react-icons/gr";
+import { BsTextLeft } from "react-icons/bs";
+import {IoTextOutline } from "react-icons/io5";
 
 function AddPage() {
   const [location, setLocation] = useState('');
@@ -76,45 +79,44 @@ function AddPage() {
   }, [errorMessage, successMessage]);
 
   return (
-    <div className="container mx-auto px-4 mt-40 bg-slate-200">
-      {errorMessage && <p className="text-red-500">{errorMessage}</p>}
-      {successMessage && <p className="text-green-500">{successMessage}</p>}
-      <form onSubmit={handleSubmit} className="block">
-        <input
-          type="text"
-          value={location}
-          onChange={(e) => setLocation(e.target.value)}
-          placeholder="Location"
-          className="mb-4 p-2 border border-gray-400 block w-full"
-        />
-        <input
-          type="text"
-          value={description}
-          onChange={(e) => setDescription(e.target.value)}
-          placeholder="Description"
-          className="mb-4 p-2 border border-gray-400 block w-full"
-        />
-        <input
-          type="file"
-          accept="image/*"
-          onChange={handleImageChange}
-          className="mb-4 block"
-        />
-        {imagePreview && (
-          <img
-            src={uri}
-            alt="Image Preview"
-            className="mb-4 max-w-xs"
-          />
-        )}
-        <button
-          type="submit"
-          className="px-4 py-2 bg-blue-500 text-white rounded focus:outline-none hover:bg-blue-600"
-        >
-          <FiUpload className="inline-block mr-1" /> Create Post
-        </button>
-      </form>
-    </div>
+<div className="container p-8 mx-auto px-4 mt-40 flex items-center justify-center bg-orange-500">
+  {errorMessage && <p className="text-red-500">{errorMessage}</p>}
+  {successMessage && <p className="text-green-500">{successMessage}</p>}
+  <form onSubmit={handleSubmit} className="block">
+    <div className="relative mb-4 w-40 h-40">
+    <input
+      type="text"
+      value={location}
+      onChange={(e) => setLocation(e.target.value)}
+      placeholder="Location"
+      className="pl-8 pr-2 py-2 border border-gray-400 block w-80"
+    />
+    <GrLocation className="absolute left-2 top-2 text-gray-900" style={{ fontSize: '1.25rem' }} />
+  </div>
+    <div className="relative mb-4">
+  <textarea
+    value={description}
+    onChange={(e) => setDescription(e.target.value)}
+    placeholder="Description"
+    className="pl-8 pr-2 py-2 border border-gray-400 block w-80 h-40 resize-none"
+  ></textarea>
+  <BsTextLeft className="absolute left-2 top-2 text-gray-900" style={{ fontSize: '1.5rem' }} />
+</div>
+    <input
+      type="file"
+      accept="image/*"
+      onChange={handleImageChange}
+      className="mb-4 block"
+    />
+    <button
+      type="submit"
+      className="px-4 py-2 bg-blue-500 text-white rounded focus:outline-none hover:bg-blue-600 items-center justify-center"
+    >
+    Create Post
+    </button>
+  </form>
+</div>
+
   );
 }
 

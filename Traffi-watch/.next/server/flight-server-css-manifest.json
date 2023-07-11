@@ -11,6 +11,9 @@
     ]
   },
   "cssModules": {
+    "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Landingpage/page": [
+      "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/globals.css"
+    ],
     "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/Home/page": [
       "/home/erick/github/Traffic-Watch/Traffi-watch/src/app/globals.css",
       "/home/erick/github/Traffic-Watch/Traffi-watch/node_modules/mapbox-gl/dist/mapbox-gl.css",

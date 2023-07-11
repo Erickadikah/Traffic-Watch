@@ -5,7 +5,7 @@ import {
   ServicesH1,
   ServicesWrapper,
   ServicesCard,
-  ServicesIcon,
+  // Image,
   ServicesH2,
   ServicesP
 } from './ServicesElements';
@@ -20,17 +20,17 @@ const Services = () => {
       <ServicesH1>Services</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <Image src={icon} className='w-16 h-16' alt="Icon1" />
+          <Image src={icon} className='w-20 h-18' alt="Icon1" />
           <ServicesH2>Location</ServicesH2>
           <ServicesP>We help reduce your time finding useful information when it's urgently needed.</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <Image src={icon2} className='w-16 h-16' alt="Icon2" />
+          <Image src={icon2} className='w-20 h-18' alt="Icon2" />
           <ServicesH2>Upload an Incidents</ServicesH2>
           <ServicesP>phone or laptop.</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <Image src={icon3} className='w-16 h-16' alt="Icon3" />
+          <Image src={icon3} className='w-20 h-18' alt="Icon3" />
           <ServicesH2>Share Incidents at Your Location</ServicesH2>
           <ServicesP>We guarantee secure data.</ServicesP>
         </ServicesCard>
