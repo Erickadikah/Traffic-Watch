@@ -660,9 +660,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
-.bg-orange-500 {
+.bg-slate-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 .from-red-500 {
   --tw-gradient-from: #ef4444 var(--tw-gradient-from-position);
@@ -795,6 +795,14 @@ video {
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:p-8 {
+    padding: 2rem;
   }
 }
 

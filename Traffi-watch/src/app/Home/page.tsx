@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Map from "../components/Map";
 // import Incidents from "../components/Incidents";
@@ -7,16 +7,10 @@ import Link from "next/link";
 import { Button } from "@mantine/core";
 import Data from "./Data";
 import "./page.css";
-import {
-  LoginButton,
-  LogoutButton,
-  ProfileButton,
-  RegisterButton,
-} from "@/components/buttons.component";
-import { signOut } from "next-auth/react";
 // import Image from "next/image";
 import Posts from "./posts";
-import { HiMiniBellAlert } from "react-icons/hi";
+import { AddForm } from "./AddForm";
+
 
 const data = [
   {
@@ -43,12 +37,16 @@ const data = [
 ];
 
 export default function Home() {
+  const [showAddForm, setShowAddForm] = useState(false);
+  function toggleAddForm() {
+    toggleAddForm(setShowAddForm);
+  }
   return (
     <main className=" w-full h-screen text-textLight  overflow-x-hidden overflow-scroll border-10">
       <Navbar links={[]} />
       <div
-        className="h-[88vh] w-full mx-auto p-8 mt-0 border-r-8 "
-        style={{ marginTop: "-9.4rem" }}
+        className="h-[88vh] w-full h-660 mx-auto lg:p-8 mt-0 border-r-8 "
+        style={{ marginTop: "-7.8rem" }}
       >
         <div style={{ display: "block" }}>
           <div>
@@ -60,12 +58,12 @@ export default function Home() {
             </h1>
             <Data data={data} />
             {/* <div className=" flex"> */}
-            <Link href="/Add" className="mt-10 flex">
-              <Button variant="outline" className="text-black rounded-md">
+            {/* <Link href="/Add" className="mt-10 flex"> */}
+              <Button variant="outline" className="text-black rounded-md mt-10" toggleAddForm={toggleAddForm}>
                 {" "}
                 Add Event
               </Button>
-            </Link>
+            {/* </Link> */}
           </div>
           {/* posts */}
           <div className="w-full gap-10 top-45 flex flex-wrap justify-center items-center mt-8 lg:mt-0">

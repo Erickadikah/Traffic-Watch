@@ -90,7 +90,7 @@ const Posts = () => {
             <Group position="apart">
               <Text fz="sm" fw={500} className="flex gap-6">
                 {post.location}
-                <ImLocation2 style={{ fontSize: 18}}/>
+                <ImLocation2 style={{ fontSize: 16}}/>
               </Text>
               <Badge size="lg">{post.country}</Badge>
             </Group>
@@ -99,9 +99,8 @@ const Posts = () => {
             </Text>
           </Card.Section>
           <Card.Section className={classes.section}>
-            <Text mt="md" className={classes.label}>
+            <Text mt="sm" className={classes.label}>
               {post.description}
-              {/* <GiTrafficLightsOrange style={{ fontSize: 27 }}/> */}
             </Text>
             <Group spacing={7} mt={5}>
               {post.badges &&
@@ -116,22 +115,6 @@ const Posts = () => {
                 ))}
             </Group>
           </Card.Section>
-
-          <Group mt="xs">
-            <Button
-              radius="md"
-              style={{ flex: 1 }}
-            >
-              Show details
-            </Button>
-            <ActionIcon variant="default" radius="md" size={36}>
-              <IconHeart
-                size="1.1rem"
-                className={classes.like}
-                stroke={1.5}
-              />
-            </ActionIcon>
-          </Group>
         </Card>
       ))}
     </>

@@ -27,18 +27,23 @@ export const authOptions: NextAuthOptions = {
     GoogleProvider({
       clientId: '74060280128-srahfv87jcjccmc2evv9p2onapjk7248.apps.googleusercontent.com',
       clientSecret: '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',
+      allowDangerousEmailAccountLinking: true,
     }),
-    GitHubProvider({
-    clientId: 'process.env.GITHUB_ID',
-    clientSecret: 'process.env.GITHUB_SECRET'
-  }),
-    TwitterProvider({
-    clientId: 'process.env.TWITTER_CLIENT_ID',
-    clientSecret: 'process.env.TWITTER_CLIENT_SECRET'
-  }),
-    GitlabProvider({
-    clientId: 'process.env.GITLAB_CLIENT_ID',
-    clientSecret: 'process.env.GITLAB_CLIENT_SECRET'
-  })
   ],
+  callbacks: {
+  async signIn({ user, account, profile, email, credentials }) {
+  // alert('user loged in')
+  console.log({user})
+    return true
+  },
+  async redirect({ url, baseUrl }) {
+    return '/Home'
+  },
+  async session({ session, token, user }) {
+    return session
+  },
+  async jwt({ token, user, account, profile, isNewUser }) {
+    return token
+  }
+}
 };

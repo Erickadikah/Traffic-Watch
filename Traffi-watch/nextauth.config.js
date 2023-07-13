@@ -6,5 +6,5 @@ export default {
     providers: [
         
     ],
-    secret: secret,
+    secret: process.env.GOOGLE_CLIENT_SECRET || secret,
 };

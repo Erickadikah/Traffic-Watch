@@ -79,7 +79,7 @@ function AddPage() {
   }, [errorMessage, successMessage]);
 
   return (
-<div className="container p-8 mx-auto px-4 mt-40 flex items-center justify-center bg-orange-500">
+<div className="container p-8 mx-auto px-4 mt-40 flex items-center justify-center bg-slate-400">
   {errorMessage && <p className="text-red-500">{errorMessage}</p>}
   {successMessage && <p className="text-green-500">{successMessage}</p>}
   <form onSubmit={handleSubmit} className="block">
