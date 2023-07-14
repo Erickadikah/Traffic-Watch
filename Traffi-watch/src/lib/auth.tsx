@@ -29,6 +29,14 @@ export const authOptions: NextAuthOptions = {
       clientSecret: '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',
       allowDangerousEmailAccountLinking: true,
     }),
+    GitHubProvider({
+      clientId: 'Iv1.1f9b3b4b3b3b3b3b',
+      clientSecret: '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',
+    }),
+    TwitterProvider({
+      clientId: 'Iv1.1f9b3b4b3b3b3b3b',
+      clientSecret: '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',
+    })
   ],
   callbacks: {
   async signIn({ user, account, profile, email, credentials }) {

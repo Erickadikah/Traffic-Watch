@@ -10,6 +10,7 @@ import "./page.css";
 // import Image from "next/image";
 import Posts from "./posts";
 import { AddForm } from "./AddForm";
+import { BsFillShareFill } from "react-icons/bs";
 
 
 const data = [
@@ -57,19 +58,21 @@ export default function Home() {
               Traffic Status
             </h1>
             <Data data={data} />
-            {/* <div className=" flex"> */}
-            {/* <Link href="/Add" className="mt-10 flex"> */}
+            <div className=" flex gap-4">
+            <Link href="/Add" className="mt-10 flex">
               <Button variant="outline" className="text-black rounded-md mt-10" toggleAddForm={toggleAddForm}>
                 {" "}
                 Add Event
               </Button>
-            {/* </Link> */}
+            </Link>
+            {/* <BsFillShareFill /> */}
           </div>
           {/* posts */}
           <div className="w-full gap-10 top-45 flex flex-wrap justify-center items-center mt-8 lg:mt-0">
             <Posts />
           </div>
         </div>
+      </div>
       </div>
     </main>
   );
