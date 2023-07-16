@@ -18,19 +18,12 @@ export default function Features() {
 
   const khwBenefitsPack = {
     features: [
-      "Comprehensive home warranty plans",
-      "Experienced professionals providing exceptional service",
-      "Customizable plans to fit individual needs",
-      "Fast and reliable service",
-      "Transparent and honest communication with customers"
+      "Comprehensive Routes For Navigation",
+      "Real-Time Traffic Updates",
+      "Real-Time Traffic Alerts",
+      "Gives You The Best Route To Your Destination",
+      "Save Your Favorite Places",
     ],
-    benefits: [
-      "Comprehensive home warranty plans to protect homeowners from unexpected repair costs",
-      "Peace of mind knowing that unexpected repairs will be covered by the warranty plan",
-      "Experienced professionals dedicated to providing exceptional service to homeowners",
-      "Customizable plans to fit the specific needs and budget of each homeowner",
-      "Fast and reliable service to ensure that repairs are completed in a timely manner and with minimal disruption to the homeowner's life."
-    ]
   };
 
   const features = khwBenefitsPack.features.map((feature, index) => (
@@ -40,22 +33,13 @@ export default function Features() {
     </li>
   ));
 
-  const benefits = khwBenefitsPack.benefits.map((benefit, index) => (
-    <li key={index}>
-      <div style={{ backgroundColor: bulletColor }}></div>
-      {benefit}
-    </li>
-  ));
-
   return (
     <section className='container'>
-      <h2 className='text-center' >Why <span className="text-danger">Us</span>?</h2>
-      <div className="features-benefits container">
+      <h2 className='text-center' >Why <span className="text-teal-600 font-bold">Traffic Watch</span>?</h2>
           <h2>Features</h2>
         <div className="features">
-          <li>{features}</li>
+          <li className='text-teal-600'>{features}</li>
         </div>
-      </div>
     </section>
   );
 }
