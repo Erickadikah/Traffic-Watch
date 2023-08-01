@@ -1,45 +1,62 @@
-import React from 'react';
+import React from "react";
+import icon1 from "../../../public/image1.svg";
+import icon2 from "../../../public/image2.svg";
+import icon3 from "../../../public/image3.svg";
+import icon4 from "../../../public/image4.svg";
+import Image from "next/image";
 
 export default function Features() {
-  const randomColors = [
-    "rgb(255, 0, 0)",        // Red
-    "rgb(0, 255, 0)",        // Green
-    "rgb(0, 0, 255)",        // Blue
-    "rgb(255, 255, 0)",      // Yellow
-    "rgb(255, 0, 255)",      // Magenta
-    "rgb(0, 255, 255)",      // Cyan
-    "rgb(255, 165, 0)",      // Orange
-    "rgb(128, 0, 128)",      // Purple
-    "rgb(0, 128, 0)",        // Dark Green
-    "rgb(0, 0, 128)"         // Navy Blue
-  ];
-
-  const bulletColor = randomColors[Math.floor(Math.random() * randomColors.length)];
-
-  const khwBenefitsPack = {
-    features: [
-      "Comprehensive Routes For Navigation",
-      "Real-Time Traffic Updates",
-      "Real-Time Traffic Alerts",
-      "Gives You The Best Route To Your Destination",
-      "Save Your Favorite Places",
-    ],
-  };
-
-  const features = khwBenefitsPack.features.map((feature, index) => (
-    <li key={index}>
-      <div style={{ backgroundColor: bulletColor }}></div>
-      {feature}
-    </li>
-  ));
-
   return (
-    <section className='container'>
-      <h2 className='text-center' >Why <span className="text-teal-600 font-bold">Traffic Watch</span>?</h2>
-          <h2>Features</h2>
-        <div className="features">
-          <li className='text-teal-600'>{features}</li>
+    <section className="container text-center">
+      <h2>Features</h2>
+      <div>
+        <div className="row">
+          <div className="col-md-4">
+            <h3>Real-time Traffic</h3>
+            <p>Get real-time traffic updates from other users on the road.</p>
+          </div>
         </div>
+      </div>
+      <div className="flex flex-1/2 flex-wrap mt-20 gap-10 p-8 justify-center">
+        <div className="box-border h-42 w-42 p-4 border-4 hover:bg-gray-200">
+          <Image
+            src={icon1}
+            alt="traffic"
+            style={{ width: "200px", height: "100px" }}
+          />
+          <p className="text-bold text-teal-950 font-bold">
+            Connect
+            </p>
+        </div>
+        <div className="box-border h-42 w-42 p-4 border-4 hover:bg-gray-200">
+          <Image
+            src={icon2}
+            alt="traffic"
+            style={{ width: "200px", height: "100px" }}
+          />
+          <p className="text-bold text-teal-950 font-bold">Locate</p>
+        </div>
+        <div className="box-border h-42 w-42 p-4 border-4 hover:bg-gray-200">
+          <Image
+            src={icon3}
+            alt="traffic"
+            style={{ width: "200px", height: "100px" }}
+          />
+          <p className="text-bold text-teal-950 font-bold">
+            Share Experience
+            </p>
+        </div>
+        <div className="box-border h-42 w-42 p-4 border-4 hover:bg-gray-200">
+          <Image
+            src={icon4}
+            alt="traffic"
+            style={{ width: "200px", height: "100px" }}
+          />
+          <p className="text-bold text-teal-950 font-bold">
+            Share Experience
+            </p>
+        </div>
+      </div>
     </section>
   );
 }
