@@ -1,2 +1,8 @@
 node_modules
+webpack.config.js
+.next
 .env
+.env.local
+.eslintcache
+.package-lock.json
+```

@@ -1,4 +1,10 @@
 {
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/Home/page": "app/Home/page.js",
+  "/InfoSection/page": "app/InfoSection/page.js",
+  "/Landingpage/page": "app/Landingpage/page.js",
+  "/Add/page": "app/Add/page.js",
+  "/Navbar/page": "app/Navbar/page.js",
+  "/server/page": "app/server/page.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
 }

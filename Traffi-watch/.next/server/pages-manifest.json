@@ -1,5 +1,10 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/api/posts/createPost": "pages/api/posts/createPost.js",
+  "/api/posts/getPosts": "pages/api/posts/getPosts.js",
+  "/api/posts/uploadToCloudinary": "pages/api/posts/uploadToCloudinary.js",
+  "/api/test": "pages/api/test.js",
+  "/api/posts/posts": "pages/api/posts/posts.js",
   "/_document": "pages/_document.js"
 }
