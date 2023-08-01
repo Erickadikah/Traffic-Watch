@@ -8,11 +8,6 @@ const Data = () => {
   return (
     <div className="w-full h-90vh overflow-x-hidden flex flex-wrap items-center" style={{background:'#A09CA4'}}>
     <div className="lg:w-50 lg:h-50">
-    {/*<img
-      src="https://images.unsplash.com/photo-1604357209793-fca5dca89f97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
-      alt=""
-      className="w-600 h-300 object-cover"
-  />*/}
   </div>
   <div className="p-10 flex-col Justify-center">
     <h1 className="font-bold text-2xl text-white mt-20 text-center">

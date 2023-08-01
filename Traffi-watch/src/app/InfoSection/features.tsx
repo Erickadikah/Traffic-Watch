@@ -17,40 +17,40 @@ export default function Features() {
           </div>
         </div>
       </div>
-      <div className="flex flex-1/2 flex-wrap mt-20 gap-10 p-8 justify-center">
-        <div className="box-border h-42 w-42 p-4 border-4 hover:bg-gray-200">
+      <div className="flex flex-wrap mt-20 gap-10 justify-center items-center">
+        <div className="box-border h-42 w-42 border-4 hover:bg-gray-200">
           <Image
             src={icon1}
             alt="traffic"
-            style={{ width: "200px", height: "100px" }}
+            style={{ width: "180px", height: "100px" }}
           />
           <p className="text-bold text-teal-950 font-bold">
             Connect
             </p>
         </div>
-        <div className="box-border h-42 w-42 p-4 border-4 hover:bg-gray-200">
+        <div className="box-border h-42 w-42  border-4 hover:bg-gray-200">
           <Image
             src={icon2}
             alt="traffic"
-            style={{ width: "200px", height: "100px" }}
+            style={{ width: "180px", height: "100px" }}
           />
           <p className="text-bold text-teal-950 font-bold">Locate</p>
         </div>
-        <div className="box-border h-42 w-42 p-4 border-4 hover:bg-gray-200">
+        <div className="box-border h-42 w-42 border-4 hover:bg-gray-200">
           <Image
             src={icon3}
             alt="traffic"
-            style={{ width: "200px", height: "100px" }}
+            style={{ width: "180px", height: "100px" }}
           />
           <p className="text-bold text-teal-950 font-bold">
             Share Experience
             </p>
         </div>
-        <div className="box-border h-42 w-42 p-4 border-4 hover:bg-gray-200">
+        <div className="box-border h-42 w-42 border-4 hover:bg-gray-200">
           <Image
             src={icon4}
             alt="traffic"
-            style={{ width: "200px", height: "100px" }}
+            style={{ width: "180px", height: "100px" }}
           />
           <p className="text-bold text-teal-950 font-bold">
             Share Experience
